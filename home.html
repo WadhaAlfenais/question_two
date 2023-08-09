@@ -1,0 +1,102 @@
+
+
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+    <script> 
+        function myFunction()  
+        { 
+            var firstname= document.getElementById("fname").value; 
+            var lastname= document.getElementById("lname").value; 
+            alert("Congratulations " + firstname +" "+ lastname + " you are now signed up!"); 
+        } 
+    </script> 
+    <link rel="stylesheet" href="style.css">
+
+</head> 
+ 
+<body> 
+    <h2>Sign Up Form Example</h2> 
+    <table>
+    <form> 
+        <table>
+        
+            <tr>
+                    <td> <label for="fname,lname">First, Last Name*:</label></td>
+                    <td><input type="text" id="fname" required> 
+                        <input type="text" id="lname" required><br></td>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        
+        
+            <tr>
+                <td><label>Organization:</label></td>
+                <td> <input type="text"> <br></td>
+            </tr>
+        
+        
+            <tr>
+                <td> <label>Email address*:</label> </td>
+                <td> <input type="text" required><br></td>
+            </tr>
+        
+            <tr>
+                <td> <label>Work Phone:</label> </td>
+                <td> <input type="text"><br></td>
+            </tr>
+        
+            <tr>
+                <td> <label>Cell Phone:</label></td>
+                <td> <input type="text"><br> </td>
+            </tr>
+        
+            <tr>
+                <td> <label>Fax:</label></td>
+                <td><input type="text"><br></td>
+            </tr>
+        
+            <tr>
+                <td><label for="address">Address 1*:</label></td>
+                <td><input type="text" id="address" required><br> </td>
+            </tr>
+        
+            <tr>
+                <td><label>Address 2:</label> </td>
+                <td><input type="text"><br> </td>
+            </tr>
+        
+            <tr>
+                <td> <label>City*:</label></td>
+                <td> <input type="text" required><br></td>
+            </tr>
+        
+            <tr>
+                <td><label>State Province:</label> </td>
+                <td><input type="text"><br> </td>
+            </tr>
+        
+            <tr>
+                <td><label>Zip Postal Code:</label> </td>
+                <td><input type="text"><br> </td>
+            </tr>
+        
+            <tr>
+                <td><label>Country*:</label> </td>
+                <td><input type="text"required><br> </td>
+            </tr>
+
+            <tr>
+                <td> <p>* required fields</p> </td>
+                <td><button onclick= "myFunction()">Submit</button>  </td>
+            </tr>
+        </table>
+
+        
+        
+    </form>
+</table>
+ </body> 
+</html>

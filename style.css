@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(rgb(189, 166, 233) ,rgb(220, 135, 135) , skyblue );
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+ }
+
+ input{
+    background-color: lightgray;
+ }
+
+ label{
+    font-style:italic;
+    font-style:oblique;
+    font-size: 20px;
+ }
+
+ h2{
+    border-bottom: solid;
+    
+ }
